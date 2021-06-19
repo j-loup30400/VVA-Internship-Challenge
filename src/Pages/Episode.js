@@ -4,8 +4,6 @@ const episode = () => {
     return(
         <>
         <h1>I'm the episode page</h1>
-        <Link to="/">Home</Link>
-
         </>
     )
 }
