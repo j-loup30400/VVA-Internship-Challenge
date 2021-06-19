@@ -32,3 +32,13 @@
     left: 0.8vw;
    
 }
+
+.rickTitle {
+    position: absolute;
+    width: 40vw;
+    height: 30vh;
+    left: 32.5vw;
+    top: -2vh;
+    
+}
+
