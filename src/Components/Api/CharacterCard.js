@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function CharacterCard(props) {
     return (
-        <div>
-        <img src={props.chars.image} alt="Rick & Morty"></img>
+        <div className="call">
+        <img className="pic" src={props.chars.image} alt="Rick & Morty"></img>
         <h1 className="name">{props.chars.name}</h1>
         <h2 className="status">{props.chars.status}</h2>
         <h2 className="species">{props.chars.species}</h2>

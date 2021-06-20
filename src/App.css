@@ -1,5 +1,6 @@
 body{
     background-color:#E5E5E5 ;
+    overflow-x: hidden;
 }
 
 
@@ -25,10 +26,7 @@ body{
     left: 0.8vw;
   
 }
-.list:hover{
-    background-color: 
-    #2C2E4A;
-}
+
 
 
 .episode {
@@ -42,10 +40,7 @@ body{
     left: 0.8vw;
    
 }
-.episode:hover{
-    background-color:
-    #2C2E4A ;
-}
+
 .rickTitle {
     position: absolute;
     width: 40vw;
@@ -100,4 +95,85 @@ body{
   top: 29.7vh;
   left: 60vw;
   font-size: 2vw;
+}
+
+.container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+   
+    margin-left: 6vw;
+    position: absolute;
+    top: 45vh;
+    flex-wrap: wrap;
+}
+
+.call{
+    border: 2px solid black;
+    box-shadow: 2px 2px black  ;    
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 16px;
+  
+    
+    
+}
+
+.name{
+    
+        color:#2C2E4A;
+        position: relative;
+        top: 0.2vh;
+        margin: 8px;
+        font-size: 1.5rem;
+    
+}
+
+.status{
+     display: block;
+     position:relative;
+    color:#2C2E4A;
+    font-size: 1rem;
+    top: 10vh;
+    left: -10vw;
+}
+
+
+
+.species{
+
+    color:#2C2E4A;
+    position: relative;
+    top: 8vh;
+}
+
+.location{
+
+    color:hsl(236, 25%, 23%);
+    position: relative;
+    left:-18vw;
+    top: 4vh;
+    
+    font-family: Inter;
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+
+.episode {
+
+    color:#2C2E4A;
+}
+
+.created {
+
+    color:#2C2E4A;
+}
+
+.pic{
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    padding: 8px;
 }

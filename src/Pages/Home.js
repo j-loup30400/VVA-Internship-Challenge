@@ -1,19 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import CharacterList from "../Components/CharacterList";
+import CharacterList from "../Components/Api/CharacterList";
 import title from "../Images/title.png";
 import listview from "../Images/listview.png";
 import gridview from "../Images/gridview.png";
 
 const StyledContainer = styled.div`
- width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 6vw;
-  position: absolute;
-  top: 45vh;
+
 
 
 
@@ -27,9 +20,7 @@ div{
     background-color: white;
     margin: 10px;
 }
-h1{
-    color:#2C2E4A;
-}
+
 h2{
     font-size: 1em;
     color: #2C2E4A;
@@ -57,9 +48,9 @@ const Home = () => {
            <img src={gridview} alt="list" ></img>   
            </div>
            <div className="line"></div>
-           <StyledContainer>
+           <div className="container">
            <CharacterList  />
-           </StyledContainer>
+           </div>
         </>
     )
 }

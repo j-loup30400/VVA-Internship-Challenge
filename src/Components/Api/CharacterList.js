@@ -8,7 +8,7 @@ export default function CharacterList() {
 
     
     useEffect(() => {
-        fetch('https://rickandmortyapi.com/api/character/[1,2,3,4,5,6,7,8,9,10]')
+        fetch('https://rickandmortyapi.com/api/character/[1,22,28,85,13,215,7,8,9,356]')
         .then(res => res.json()) 
         .then((data => SetCharacterList(data)))
         
@@ -22,9 +22,8 @@ export default function CharacterList() {
             {CharacterList.map((chars, id) => {
                 return <CharacterCard key={id}
                 chars={chars} />
-            
+                
             })}
-            
             
         </div>
     )

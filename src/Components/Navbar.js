@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const StyledNav = styled.div`
 width: 5vw;
-height: 119vh;
-position: absolute;
+height: 320vh;
+position: sticky;
 left: 0%;
 right: 0%;
 top: 0%;
