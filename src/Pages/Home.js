@@ -19,16 +19,18 @@ const Home = () => {
   // const [search, setSearch] = useState("")
   return (
     <>
-      <img className="rickTitle" src={title} alt="title"></img>
+    <div className="rickTitle">
+      <img className="homeTitle" src={title} alt="title"></img>
+      </div>
       <input
         id="searchId"
         className="search"
         type="text"
-        placeholder="Search a character"
+        placeholder="Search a character ..."
       ></input>
-
-      <p className="sort">sort by:</p>
+    
       <div className="view">
+       
         <input
           className="newOld"
           type="choice"
